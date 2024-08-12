@@ -1,14 +1,3 @@
-git reset --hard COMMITHASH
-git status
-git reset --hard
-git status
-bootdev run eb5c6d9f-6203-4174-8e32-e261a707d7fe
-bootdev submit eb5c6d9f-6203-4174-8e32-e261a707d7fe
-ls
-git reset --hard
-git status
-cat titles.md
-pwd
 cd /path/to/your/project
 ld
 ls
@@ -498,3 +487,14 @@ git commit -m "M: Finalize gitignore changes"
 git push origin add_classics
 bootdev run 130bca89-8624-402c-a522-327e5c497159
 bootdev submit 130bca89-8624-402c-a522-327e5c497159
+git add .
+git commit -m "M: Finalize gitignore changes"
+git push origin add_classics
+git push origin add_classics
+git push origin add_classics
+git checkout -b new-branch-name
+git push origin new-branch-name
+git remote -v
+git config --list
+git push origin new-branch-name
+git push origin new-branch-name
