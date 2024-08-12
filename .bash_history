@@ -1,34 +1,3 @@
-curl -sS https://webi.sh/golang | sh
-go install github.com/bootdotdev/bootdev@latest
-bootdev run bb5f3005-894f-4d2f-80d1-75f4f143dd0d
-bootdev help
-git status
-echo "* The Internship" > titles.md
-git status
-bootdev run bb5f3005-894f-4d2f-80d1-75f4f143dd0d
-bootdev login
-XYZ7v7p6Y-6YIoJ6
-boot.dev login
-curl -sS https://webi.sh/golang | sh
-go install github.com/bootdotdev/bootdev@latest
-bootdev help
-bootdev login
-echo "* The Internship" > titles.md
-git status
-git add titles.md
-git commit -m "J: Added favorite movie"
-bootdev run bb5f3005-894f-4d2f-80d1-75f4f143dd0d
-bootdev submit bb5f3005-894f-4d2f-80d1-75f4f143dd0d
-git reset --soft HEAD~1
-bootdev run cc5ecbd6-a740-408a-9b69-5fe961aef13e
-bootdev submit cc5ecbd6-a740-408a-9b69-5fe961aef13e
-git status
-git checkout update_dune
-cat titles.md
-git reset --soft HEAD~1
-git status
-bootdev run cc5ecbd6-a740-408a-9b69-5fe961aef13e
-bootdev submit cc5ecbd6-a740-408a-9b69-5fe961aef13e
 git reset --hard COMMITHASH
 git status
 git reset --hard
@@ -498,3 +467,34 @@ git commit --amend
 git log --oneline
 bootdev run 68fb19fe-ef3d-4d11-ad8a-3d009cc64319
 bootdev submit 68fb19fe-ef3d-4d11-ad8a-3d009cc64319
+mkdir secure
+touch secure/passwords.txt
+touch guilty_pleasures.md
+nano secure/passwords.txt
+nano guilty_pleasures.md
+touch .gitignore
+nano gitignore
+git add .gitignore
+git commit -m "M: Added .gitignore to ignore sensitive files"
+git push origin main
+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
+bootdev submit 130bca89-8624-402c-a522-327e5c497159
+git status
+git status
+mv gitignore .gitignore
+bootdev run 130bca89-8624-402c-a522-327e5c497159
+bootdev submit 130bca89-8624-402c-a522-327e5c497159
+git add .gitignore
+bootdev run 130bca89-8624-402c-a522-327e5c497159
+bootdev submit 130bca89-8624-402c-a522-327e5c497159
+git status
+git commit -m "M: Added .gitignore to ignore sensitive files"
+git push origin add_classics
+bootdev run 130bca89-8624-402c-a522-327e5c497159
+bootdev submit 130bca89-8624-402c-a522-327e5c497159
+ git add 
+git add .
+git commit -m "M: Finalize gitignore changes"
+git push origin add_classics
+bootdev run 130bca89-8624-402c-a522-327e5c497159
+bootdev submit 130bca89-8624-402c-a522-327e5c497159
