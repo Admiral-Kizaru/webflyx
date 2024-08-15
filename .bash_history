@@ -1,28 +1,3 @@
-cd /path/to/your/project
-ld
-ls
-cd /path/to/webflyx
-cd /root/webflyx
-ls
-cd ..
-ls
-ls
-cd ..
-ls
-cd root
-ls
-cd /root/webflyx
-cd ..
-ls
-cat titles.md
-cd /root/webflyx
-bootdev run eb5c6d9f-6203-4174-8e32-e261a707d7fe
-bootdev submit eb5c6d9f-6203-4174-8e32-e261a707d7fe
-pwd
-pwd
-git status
-ls titles.md
-ls
 cd root
 git status
 pwd
@@ -498,3 +473,28 @@ git remote -v
 git config --list
 git push origin new-branch-name
 git push origin new-branch-name
+cd ~/workspace
+ls
+mkdir github.com
+cd github.com
+mkdir Admiral-Kizaru
+cd Admiral-Kizaru
+git clone https://github.com/Admiral-Kizaru/bookbot
+ls
+git clone https://github.com/Admiral-Kizaru/bookbot
+gh repo clone Admiral-Kizaru/hello-world
+snap install gh
+gh repo clone Admiral-Kizaru/hello-world
+gh auth login
+cd ~/workspace
+ls
+cd github.com
+ls
+cd Admiral_Kizaru
+cd Admiral-Kizaru
+git clone https://github.com/Admiral-Kizaru/bookbot
+git clone https://github.com/Admiral-Kizaru/bookbot
+git clone https://github.com/Admiral-Kizaru/bookbot
+ls
+bootdev run b193d218-e022-4fb1-95be-1b9c2c440927
+bootdev run b193d218-e022-4fb1-95be-1b9c2c440927 -s
