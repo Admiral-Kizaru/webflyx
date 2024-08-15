@@ -1,23 +1,3 @@
-cd root
-git status
-pwd
-ls titles.md
-ls -a
-git log --name-only
-git branch
-git checkout update_titles
-ls
-cd /path/to/webflyx
-cd ~/webflyx
-pwd
-ls
-find / -type d -name webflyx 2>/dev/null
-ls
-cd private
-ls
-cd webflyx
-ls
-git status
 git log --name-only
 git checkout update_titles
 ls
@@ -498,3 +478,23 @@ git clone https://github.com/Admiral-Kizaru/bookbot
 ls
 bootdev run b193d218-e022-4fb1-95be-1b9c2c440927
 bootdev run b193d218-e022-4fb1-95be-1b9c2c440927 -s
+git add .
+git commit -m "update readme with a description"
+git push origin main
+git add.
+git add .
+git commit -m "update readme with a description"
+git push origin main
+ls
+cd workspace
+ls
+cd github.com
+ls
+cd Admiral-Kizaru
+ls
+cd bookbot
+ls
+cd readme.md
+cd README.md
+cat readme.md
+nano readme.md
