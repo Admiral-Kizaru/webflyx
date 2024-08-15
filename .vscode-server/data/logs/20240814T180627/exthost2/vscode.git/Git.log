@@ -333,3 +333,111 @@ fatal: no email was given and auto-detection is disabled
 2024-08-14 19:46:48.463 [info] > git cat-file -s 1db72c04e960281ff9b7ad155a90ae26553ab6fb [1ms]
 2024-08-14 19:46:48.468 [info] > git show --textconv HEAD:README.md [2ms]
 2024-08-14 19:46:48.478 [info] > git show --textconv :README.md [2ms]
+2024-08-14 19:48:23.713 [info] > git ls-files --stage -- /root/workspace/github.com/Admiral-Kizaru/bookbot/README.md [6ms]
+2024-08-14 19:48:23.719 [info] > git ls-tree -l HEAD -- /root/workspace/github.com/Admiral-Kizaru/bookbot/README.md [19ms]
+2024-08-14 19:48:23.721 [info] > git cat-file -s 1db72c04e960281ff9b7ad155a90ae26553ab6fb [3ms]
+2024-08-14 19:48:23.722 [info] > git config --get commit.template [10ms]
+2024-08-14 19:48:23.733 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-14 19:48:23.740 [warning] ENOENT: no such file or directory, open '/root/workspace/github.com/Admiral-Kizaru/bookbot/.git/refs/remotes/origin/main'
+2024-08-14 19:48:23.742 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-08-14 19:48:23.751 [info] > git status -z -uall [3ms]
+2024-08-14 19:48:23.769 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-08-14 19:48:23.785 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-08-14 19:48:23.799 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-08-14 19:48:30.451 [info] > git ls-tree -l HEAD -- /root/workspace/github.com/Admiral-Kizaru/bookbot/README.md [6ms]
+2024-08-14 19:48:30.452 [info] > git ls-files --stage -- /root/workspace/github.com/Admiral-Kizaru/bookbot/README.md [2ms]
+2024-08-14 19:48:30.457 [info] > git cat-file -s 1db72c04e960281ff9b7ad155a90ae26553ab6fb [1ms]
+2024-08-14 19:48:40.217 [info] > git show --textconv :README.md [2ms]
+2024-08-14 19:48:40.218 [info] > git ls-files --stage -- /root/workspace/github.com/Admiral-Kizaru/bookbot/README.md [1ms]
+2024-08-14 19:48:40.221 [info] > git cat-file -s 1db72c04e960281ff9b7ad155a90ae26553ab6fb [1ms]
+2024-08-14 19:48:41.130 [info] > git ls-tree -l HEAD -- /root/workspace/github.com/Admiral-Kizaru/bookbot/README.md [5ms]
+2024-08-14 19:48:41.131 [info] > git ls-files --stage -- /root/workspace/github.com/Admiral-Kizaru/bookbot/README.md [3ms]
+2024-08-14 19:48:41.135 [info] > git cat-file -s 1db72c04e960281ff9b7ad155a90ae26553ab6fb [1ms]
+2024-08-14 19:48:42.359 [info] > git show --textconv :README.md [2ms]
+2024-08-14 19:48:42.360 [info] > git ls-files --stage -- /root/workspace/github.com/Admiral-Kizaru/bookbot/README.md [1ms]
+2024-08-14 19:48:42.363 [info] > git cat-file -s 1db72c04e960281ff9b7ad155a90ae26553ab6fb [1ms]
+2024-08-14 19:48:43.019 [info] > git ls-files --stage -- /root/workspace/github.com/Admiral-Kizaru/bookbot/README.md [3ms]
+2024-08-14 19:48:43.023 [info] > git ls-tree -l HEAD -- /root/workspace/github.com/Admiral-Kizaru/bookbot/README.md [10ms]
+2024-08-14 19:48:43.026 [info] > git cat-file -s 1db72c04e960281ff9b7ad155a90ae26553ab6fb [2ms]
+2024-08-14 19:48:47.625 [info] > git show --textconv :README.md [3ms]
+2024-08-14 19:48:47.626 [info] > git ls-files --stage -- /root/workspace/github.com/Admiral-Kizaru/bookbot/README.md [2ms]
+2024-08-14 19:48:47.629 [info] > git cat-file -s 1db72c04e960281ff9b7ad155a90ae26553ab6fb [1ms]
+2024-08-14 19:48:54.405 [info] > git -c user.useConfigOnly=true commit --quiet [2ms]
+2024-08-14 19:48:54.405 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-08-14 19:48:54.408 [info] > git config --get-all user.name [1ms]
+2024-08-14 19:48:54.413 [info] > git config --get commit.template [3ms]
+2024-08-14 19:48:54.414 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-08-14 19:48:54.416 [warning] ENOENT: no such file or directory, open '/root/workspace/github.com/Admiral-Kizaru/bookbot/.git/refs/remotes/origin/main'
+2024-08-14 19:48:54.417 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-08-14 19:48:54.422 [info] > git status -z -uall [2ms]
+2024-08-14 19:48:54.429 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-08-14 19:48:54.435 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-08-14 19:48:54.441 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-08-14 19:49:47.773 [info] > git fetch [482ms]
+2024-08-14 19:49:47.780 [info] > git config --get commit.template [4ms]
+2024-08-14 19:49:47.780 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-08-14 19:49:47.783 [warning] ENOENT: no such file or directory, open '/root/workspace/github.com/Admiral-Kizaru/bookbot/.git/refs/remotes/origin/main'
+2024-08-14 19:49:47.784 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-08-14 19:49:47.790 [info] > git status -z -uall [2ms]
+2024-08-14 19:49:47.796 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-14 19:49:47.801 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-08-14 19:49:47.810 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-08-14 19:49:48.906 [info] > git config --get commit.template [3ms]
+2024-08-14 19:49:48.906 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-08-14 19:49:48.909 [warning] ENOENT: no such file or directory, open '/root/workspace/github.com/Admiral-Kizaru/bookbot/.git/refs/remotes/origin/main'
+2024-08-14 19:49:48.910 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-08-14 19:49:48.914 [info] > git status -z -uall [2ms]
+2024-08-14 19:49:48.921 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-14 19:49:48.930 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-08-14 19:49:48.939 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-08-14 19:49:49.011 [info] > git ls-files --stage -- /root/workspace/github.com/Admiral-Kizaru/bookbot/README.md [2ms]
+2024-08-14 19:49:49.013 [info] > git ls-tree -l HEAD -- /root/workspace/github.com/Admiral-Kizaru/bookbot/README.md [6ms]
+2024-08-14 19:49:49.014 [info] > git ls-files --stage -- /root/workspace/github.com/Admiral-Kizaru/bookbot/README.md [4ms]
+2024-08-14 19:49:49.020 [info] > git show --textconv HEAD:README.md [2ms]
+2024-08-14 19:49:49.020 [info] > git cat-file -s 1db72c04e960281ff9b7ad155a90ae26553ab6fb [7ms]
+2024-08-14 19:49:49.021 [info] > git cat-file -s 1db72c04e960281ff9b7ad155a90ae26553ab6fb [5ms]
+2024-08-14 19:49:49.029 [info] > git show --textconv :README.md [3ms]
+2024-08-14 19:49:49.030 [info] > git show --textconv :README.md [1ms]
+2024-08-14 19:49:53.927 [info] > git config --get commit.template [3ms]
+2024-08-14 19:49:53.927 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-08-14 19:49:53.929 [warning] ENOENT: no such file or directory, open '/root/workspace/github.com/Admiral-Kizaru/bookbot/.git/refs/remotes/origin/main'
+2024-08-14 19:49:53.930 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-08-14 19:49:53.934 [info] > git status -z -uall [1ms]
+2024-08-14 19:49:53.940 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-14 19:49:53.944 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-08-14 19:49:53.947 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-08-14 19:51:38.226 [info] > git -c user.useConfigOnly=true commit --quiet [5ms]
+2024-08-14 19:51:38.226 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-08-14 19:51:38.231 [info] > git config --get-all user.name [1ms]
+2024-08-14 19:51:38.237 [info] > git config --get commit.template [3ms]
+2024-08-14 19:51:38.238 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-08-14 19:51:38.242 [warning] ENOENT: no such file or directory, open '/root/workspace/github.com/Admiral-Kizaru/bookbot/.git/refs/remotes/origin/main'
+2024-08-14 19:51:38.243 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-08-14 19:51:38.247 [info] > git status -z -uall [2ms]
+2024-08-14 19:51:38.258 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-08-14 19:51:38.263 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-08-14 19:51:38.268 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
