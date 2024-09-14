@@ -1,0 +1,32 @@
+2024-08-17 22:49:28.000 [info] (Client) Pylance async client (2024.8.1) started with python extension (2024.12.3)
+2024-08-17 22:49:31.337 [info] [Info  - 10:49:30 PM] (810) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.8.1/dist
+2024-08-17 22:49:31.344 [info] [Info  - 10:49:31 PM] (810) Experimental Pylance language server 2024.8.1 (pyright version 1.1.373, commit ee424479) starting
+2024-08-17 22:49:31.349 [info] [Info  - 10:49:31 PM] (810) Starting service instance "bookbot"
+2024-08-17 22:49:32.524 [info] [Info  - 10:49:32 PM] (810) Setting pythonPath for service "bookbot": "/bin/python3"
+2024-08-17 22:49:32.528 [info] [Info  - 10:49:32 PM] (810) Setting environmentName for service "bookbot": "3.10.12 (global)"
+2024-08-17 22:49:32.528 [info] [Info  - 10:49:32 PM] (810) No include entries specified; assuming /root/workspace/github.com/Admiral-Kizaru/bookbot
+2024-08-17 22:49:32.528 [info] [Info  - 10:49:32 PM] (810) Auto-excluding **/node_modules
+2024-08-17 22:49:32.528 [info] [Info  - 10:49:32 PM] (810) Auto-excluding **/__pycache__
+2024-08-17 22:49:32.528 [info] [Info  - 10:49:32 PM] (810) Auto-excluding **/.*
+2024-08-17 22:49:32.561 [info] [Info  - 10:49:32 PM] (810) Assuming Python version 3.10.12.final.0
+2024-08-17 22:49:32.711 [info] [Info  - 10:49:32 PM] (810) Found 1 source file
+2024-08-17 22:49:33.007 [info] [Info  - 10:49:33 PM] (810) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.8.1/dist
+2024-08-17 22:49:33.009 [info] [Info  - 10:49:33 PM] (810) Background analysis(1) started
+2024-08-17 22:49:33.269 [info] [Info  - 10:49:33 PM] (810) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.8.1/dist (index)
+2024-08-17 22:49:33.270 [info] [Info  - 10:49:33 PM] (810) Indexing(2) started
+2024-08-17 22:49:33.767 [info] [Info  - 10:49:33 PM] (810) scanned(2) 44 files over 1 exec env
+2024-08-17 22:49:34.040 [info] [Info  - 10:49:34 PM] (810) indexed(2) 20 files over 1 exec env
+2024-08-17 22:49:34.070 [info] [Info  - 10:49:34 PM] (810) Indexing finished(2).
+2024-08-17 22:57:21.958 [info] [Info  - 10:57:21 PM] (810) Setting pythonPath for service "bookbot": "/bin/python3"
+2024-08-17 22:57:21.958 [info] [Info  - 10:57:21 PM] (810) Setting environmentName for service "bookbot": "3.10.12 (global)"
+2024-08-17 22:57:21.958 [info] [Info  - 10:57:21 PM] (810) No include entries specified; assuming /root/workspace/github.com/Admiral-Kizaru/bookbot
+2024-08-17 22:57:21.958 [info] [Info  - 10:57:21 PM] (810) Auto-excluding **/node_modules
+2024-08-17 22:57:21.958 [info] [Info  - 10:57:21 PM] (810) Auto-excluding **/__pycache__
+2024-08-17 22:57:21.958 [info] [Info  - 10:57:21 PM] (810) Auto-excluding **/.*
+2024-08-17 22:57:21.982 [info] [Info  - 10:57:21 PM] (810) Assuming Python version 3.10.12.final.0
+2024-08-17 22:57:22.044 [info] [Info  - 10:57:22 PM] (810) Found 1 source file
+2024-08-17 22:57:23.222 [info] [Info  - 10:57:23 PM] (810) Indexer background runner(3) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.8.1/dist (index)
+2024-08-17 22:57:23.222 [info] [Info  - 10:57:23 PM] (810) Indexing(3) started
+2024-08-17 22:57:23.930 [info] [Info  - 10:57:23 PM] (810) scanned(3) 44 files over 1 exec env
+2024-08-17 22:57:24.296 [info] [Info  - 10:57:24 PM] (810) indexed(3) 20 files over 1 exec env
+2024-08-17 22:57:24.310 [info] [Info  - 10:57:24 PM] (810) Indexing finished(3).

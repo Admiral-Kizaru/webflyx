@@ -1,0 +1,120 @@
+2024-08-17 22:49:25.338 [info] Extension host with pid 587 started
+2024-08-17 22:49:25.338 [error] Error: EEXIST: file already exists, open '/root/.vscode-server/data/User/workspaceStorage/8ca1f8eff3df1edabaaa69111edda1e4/vscode.lock'
+2024-08-17 22:49:25.347 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/8ca1f8eff3df1edabaaa69111edda1e4/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-08-17 22:49:25.355 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/8ca1f8eff3df1edabaaa69111edda1e4/vscode.lock': The pid 7361 appears to be gone.
+2024-08-17 22:49:25.355 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/8ca1f8eff3df1edabaaa69111edda1e4/vscode.lock': Deleting a stale lock.
+2024-08-17 22:49:25.364 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/8ca1f8eff3df1edabaaa69111edda1e4/vscode.lock': Lock acquired.
+2024-08-17 22:49:25.421 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-17 22:49:25.423 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-08-17 22:49:26.160 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-08-17 22:49:26.160 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-08-17 22:49:27.041 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-08-17 22:49:27.116 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-08-17 22:49:27.117 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-17 22:49:27.574 [info] Eager extensions activated
+2024-08-17 22:49:27.574 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-17 22:49:27.575 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-17 22:56:49.275 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2024-08-17 22:56:49.755 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-08-17 22:56:52.556 [error] Error: Invalid debug adapter
+    at c.p (vscode-file://vscode-app/c:/Users/super/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2012:95)
+    at c.$acceptDAExit (vscode-file://vscode-app/c:/Users/super/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2012:35)
+    at S (vscode-file://vscode-app/c:/Users/super/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1903:14635)
+    at S.Q (vscode-file://vscode-app/c:/Users/super/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1903:14401)
+    at S.M (vscode-file://vscode-app/c:/Users/super/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1903:13434)
+    at S.L (vscode-file://vscode-app/c:/Users/super/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1903:12490)
+    at u.value (vscode-file://vscode-app/c:/Users/super/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1903:10964)
+    at o.B (vscode-file://vscode-app/c:/Users/super/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:93:732)
+    at o.fire (vscode-file://vscode-app/c:/Users/super/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:93:949)
+    at s.fire (vscode-file://vscode-app/c:/Users/super/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:123:15085)
+    at b.A (vscode-file://vscode-app/c:/Users/super/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:123:18244)
+    at u.value (vscode-file://vscode-app/c:/Users/super/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:123:16602)
+    at o.B (vscode-file://vscode-app/c:/Users/super/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:93:732)
+    at o.fire (vscode-file://vscode-app/c:/Users/super/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:93:949)
+    at h.acceptChunk (vscode-file://vscode-app/c:/Users/super/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:123:12831)
+    at vscode-file://vscode-app/c:/Users/super/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:123:12101
+    at u.value (vscode-file://vscode-app/c:/Users/super/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:694:5145)
+    at o.B (vscode-file://vscode-app/c:/Users/super/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:93:732)
+    at o.fire (vscode-file://vscode-app/c:/Users/super/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:93:949)
+    at j.onload (vscode-file://vscode-app/c:/Users/super/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:694:3374)
+2024-08-18 06:29:03.452 [info] Extension host terminating: renderer disconnected for too long (1)
+2024-08-18 06:29:03.460 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/8ca1f8eff3df1edabaaa69111edda1e4/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-08-18 06:29:03.550 [error] Canceled: Canceled
+	at new C (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:144:35204)
+	at y.U (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:151:6017)
+	at z.<computed>.j.charCodeAt.R.CharCode.DollarSign.z.<computed> (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+	at d.g (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:154:205942)
+	at d.executeCommand (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at A.registerCommand.description (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:154:204704)
+	at d.h (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:154:206481)
+	at d.g (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:154:205473)
+	at d.executeCommand (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at Object.executeCommand (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:164:23060)
+	at i.O [as value] (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/main.js:2:951642)
+	at n.B (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.C (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:83:807)
+	at n.fire (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:83:1023)
+	at Object.p [as dispose] (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/main.js:2:972220)
+	at /root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/main.js:2:978342
+	at Array.forEach (<anonymous>)
+	at f.dispose (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/main.js:2:978328)
+	at a.<anonymous> (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:152:4173)
+	at a.dispose (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at a.<anonymous> (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/main.js:2:953940)
+	at a.dispose (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at $ (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at /root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:160:13379
+	at /root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:30:1112
+	at Object.dispose (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:11:11354)
+	at m.eb (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:160:10056)
+	at /root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:160:7927
+	at Array.map (<anonymous>)
+	at m.$ (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:160:7914)
+	at m.terminate (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:160:8187)
+	at $.terminate (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at o (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:177:10633)
+	at j.a (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:177:7238)
+	at j.h (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:87:21483)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2024-08-18 06:29:03.556 [error] Canceled: Canceled
+	at new C (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:144:35204)
+	at y.U (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:151:6017)
+	at z.<computed>.j.charCodeAt.R.CharCode.DollarSign.z.<computed> (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+	at d.g (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:154:205942)
+	at d.executeCommand (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at A.registerCommand.description (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:154:204704)
+	at d.h (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:154:206481)
+	at d.g (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:154:205473)
+	at d.executeCommand (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at Object.executeCommand (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:164:23060)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/github/dist/extension.js:2:322969)
+	at /root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/github/dist/extension.js:2:323928
+	at i.value (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/main.js:2:1060193)
+	at n.B (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.C (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:83:807)
+	at n.fire (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:83:1023)
+	at Object.p [as dispose] (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/main.js:2:972220)
+	at /root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/main.js:2:978342
+	at Array.forEach (<anonymous>)
+	at f.dispose (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/main.js:2:978328)
+	at a.<anonymous> (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:152:4173)
+	at a.dispose (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at a.<anonymous> (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/main.js:2:953940)
+	at a.dispose (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at $ (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at /root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:160:13379
+	at /root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:30:1112
+	at Object.dispose (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:11:11354)
+	at m.eb (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:160:10056)
+	at /root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:160:7927
+	at Array.map (<anonymous>)
+	at m.$ (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:160:7914)
+	at m.terminate (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:160:8187)
+	at $.terminate (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at o (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:177:10633)
+	at j.a (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:177:7238)
+	at j.h (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/workbench/api/node/extensionHostProcess.js:87:21483)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2024-08-18 06:29:03.699 [info] Extension host with pid 587 exiting with code 0

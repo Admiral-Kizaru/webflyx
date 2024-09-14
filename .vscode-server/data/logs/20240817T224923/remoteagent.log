@@ -1,0 +1,20 @@
+2024-08-17 22:49:23.776 [info] 
+
+
+
+
+2024-08-17 22:49:23.785 [info] Extension host agent started.
+2024-08-17 22:49:23.930 [info] [127.0.0.1][c0008795][ManagementConnection] New connection established.
+2024-08-17 22:49:24.459 [info] [127.0.0.1][f639b98b][ExtensionHostConnection] New connection established.
+2024-08-17 22:49:24.512 [info] [127.0.0.1][f639b98b][ExtensionHostConnection] <587> Launched Extension Host Process.
+2024-08-17 22:49:27.910 [info] Getting Manifest... ms-python.debugpy
+2024-08-17 22:49:28.099 [info] Installing extension: ms-python.debugpy {"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"},"pinned":false,"isApplicationScoped":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2024-08-17 22:49:29.487 [info] Getting Manifest... ms-python.python
+2024-08-17 22:49:33.774 [info] Extension signature verification result for ms-python.debugpy: Success. Executed: true. Duration: 1133ms.
+2024-08-17 22:49:34.338 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.debugpy-2024.10.0-linux-x64: ms-python.debugpy
+2024-08-17 22:49:34.349 [info] Renamed to /root/.vscode-server/extensions/ms-python.debugpy-2024.10.0-linux-x64
+2024-08-17 22:49:34.365 [info] Marked extension as uninstalled ms-python.debugpy-2024.8.0-linux-x64
+2024-08-17 22:49:34.367 [info] Extension installed successfully: ms-python.debugpy file:///root/.vscode-server/extensions/extensions.json
+2024-08-18 03:29:25.427 [info] [127.0.0.1][c0008795][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-08-18 06:29:03.815 [info] [127.0.0.1][f639b98b][ExtensionHostConnection] <587> Extension Host Process exited with code: 0, signal: null.
+2024-08-18 06:29:34.370 [info] [127.0.0.1][c0008795][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.

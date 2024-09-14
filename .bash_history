@@ -1,83 +1,3 @@
-git log --name-only
-git checkout update_titles
-ls
-cd ..
-ls
-cd ..
-ls
-git checkout update_titles
-git log --name-only
-git checkout update_titles
-ls
-cat titles.md
-cd /root/private/webflyx
-git checkout update_titles
-git branch
-cd /root/private/webflyx
-git checkout update_titles
-git branch
-git checkout update_titles
-git branch -a
-git fetch origin
-git checkout origin/update_titles
-git checkout -b update_titles origin/update_titles
-git branch -a
-ls
-cd private
-cd webflyx
-ls
-git branch
-git branch
-ls
-cd /root/private/webflyx
-git branch
-git status
-git fetch --all
-git checkout -b update_titles origin/update_titles
-git branch
-cd /root/private/webflyx
-git checkout update_titles
-git branch -a
-git fetch --all
-git branch -a
-git checkout -b update_titles origin/update_titles
-git fetch --all
-git branch -a
-git branch
-git checkout -b update_titles
-echo "# Titles" > titles.md
-git add titles.md
-git commit -m "Add titles.md with initial content"
-ls
-cat titles.md
-git log
-git reset --hard 6cd35e2759ec42e0c8421f7c534ca11058188504 
-bootdev run eb5c6d9f-6203-4174-8e32-e261a707d7fe
-bootdev submit eb5c6d9f-6203-4174-8e32-e261a707d7fe
-ls
-cd ..
-ls
-mkdir webflyx-local
-ls
-cd webflyx-local
- git init 
- git init 
-bootdev run 0443e68c-dc97-4eda-bcac-a44578c9eb68
-bootdev submit 0443e68c-dc97-4eda-bcac-a44578c9eb68
-pwd
-git status
-git config --global init.defaultBranch main
-rm -rf .git
- git init
-bootdev run 0443e68c-dc97-4eda-bcac-a44578c9eb68
-bootdev submit 0443e68c-dc97-4eda-bcac-a44578c9eb68
-git remote add origin ../webflyx
-bootdev run ad1ac5e6-8ce7-4fc8-b603-6a359ba9c715
-bootdev submit ad1ac5e6-8ce7-4fc8-b603-6a359ba9c715
-find .git/objects
-bootdev run 26a9aebe-7e7b-4ad7-9de1-1e8bda7b1296
-bootdev submit 26a9aebe-7e7b-4ad7-9de1-1e8bda7b1296
-git fetch
 find .git/objects
 bootdev run 874bc151-49f5-4e84-b7b4-a20d4260871d
 bootdev submit 874bc151-49f5-4e84-b7b4-a20d4260871d
@@ -498,3 +418,83 @@ cd readme.md
 cd README.md
 cat readme.md
 nano readme.md
+/bin/python3 /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+/bin/python3 /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+/bin/python3 /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+/bin/python3 /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+/bin/python3 /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+/bin/python3 /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+/bin/python3 /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+/bin/python3 /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+/bin/python3 /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+nano readme.md
+git add .
+git add .
+git commit -m "update readme with a description"
+git push origin main
+nano readme.md
+git add .
+git commit -m "update readme with a description"
+git push origin main
+git config --global user.name Admiral-Kizaru
+git config --global user.email admiralaramaki7@gmail.com
+git commit -m "update readme with a description"
+git add .
+git commit -m "update readme with a description"
+git push origin main
+python3 --version
+bootdev run d2371c4c-0dad-4c85-9d4f-e92da72335f6
+bootdev run d2371c4c-0dad-4c85-9d4f-e92da72335f6 -s
+python3 main.py
+python3 main.py
+python3 main.py
+touch main.py
+nano main.py
+python3 main.py
+bootdev run d6350dd3-7ec9-425b-b10c-892b8f2a9b7a
+bootdev run d6350dd3-7ec9-425b-b10c-892b8f2a9b7a -s
+ls
+cd workspace
+ls
+cd github.com
+ls
+cd Admiral-Kizaru
+ls
+cd bookbot
+mkdir books
+ls
+cat books
+nano books
+nano .gitignore
+bootdev run 5be3e3bd-efb5-4664-a9e9-7111be783271
+bootdev upgrade
+bootdev run 5be3e3bd-efb5-4664-a9e9-7111be783271
+bootdev run 5be3e3bd-efb5-4664-a9e9-7111be783271 -s
+cd ~/documents
+cd ls
+ls
+cd ~/Documents
+mkdir my_project
+ls
+cd my_project
+git init
+echo "# My Project" >> README.md
+touch .gitignore
+git add .
+git commit -m "Initial commit"
+python3 -m venv venv
+apt install python3.10-venv
+python3 -m venv venv
+source venv/bin/activate
+echo "requests\nflask" > requirements.txt
+cat requirements.txt
+git add requirements.txt
+git commit -m "Add requirements.txt"
+echo "pygame==2.6.0" > requirements.txt
+cat requirements.txt
+git add requirements.txt
+git commit -m "Add requirements.txt with pygame==2.6.0"
+pip install -r requirements.txt
+python3 -m pygame
+bootdev run 7228cde1-e519-4ee4-920e-1c50011197bb
+bootdev run 7228cde1-e519-4ee4-920e-1c50011197bb -s

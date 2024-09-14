@@ -1,0 +1,19 @@
+2024-08-14 20:36:35.877 [info] (Client) Pylance async client (2024.8.1) started with python extension (2024.12.3)
+2024-08-14 20:36:36.419 [info] [Info  - 8:36:36 PM] (69684) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.8.1/dist
+2024-08-14 20:36:36.420 [info] [Info  - 8:36:36 PM] (69684) Experimental Pylance language server 2024.8.1 (pyright version 1.1.373, commit ee424479) starting
+2024-08-14 20:36:36.420 [info] [Info  - 8:36:36 PM] (69684) Starting service instance "bookbot"
+2024-08-14 20:36:36.458 [info] [Info  - 8:36:36 PM] (69684) Setting pythonPath for service "bookbot": "/bin/python3"
+2024-08-14 20:36:36.458 [info] [Info  - 8:36:36 PM] (69684) Setting environmentName for service "bookbot": "3.10.12 (global)"
+2024-08-14 20:36:36.459 [info] [Info  - 8:36:36 PM] (69684) No include entries specified; assuming /root/workspace/github.com/Admiral-Kizaru/bookbot
+2024-08-14 20:36:36.460 [info] [Info  - 8:36:36 PM] (69684) Auto-excluding **/node_modules
+2024-08-14 20:36:36.462 [info] [Info  - 8:36:36 PM] (69684) Auto-excluding **/__pycache__
+2024-08-14 20:36:36.463 [info] [Info  - 8:36:36 PM] (69684) Auto-excluding **/.*
+2024-08-14 20:36:36.484 [info] [Info  - 8:36:36 PM] (69684) Assuming Python version 3.10.12.final.0
+2024-08-14 20:36:36.546 [info] [Info  - 8:36:36 PM] (69684) Found 1 source file
+2024-08-14 20:36:37.130 [info] [Info  - 8:36:37 PM] (69684) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.8.1/dist
+2024-08-14 20:36:37.133 [info] [Info  - 8:36:37 PM] (69684) Background analysis(1) started
+2024-08-14 20:36:37.492 [info] [Info  - 8:36:37 PM] (69684) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.8.1/dist (index)
+2024-08-14 20:36:37.493 [info] [Info  - 8:36:37 PM] (69684) Indexing(2) started
+2024-08-14 20:36:38.272 [info] [Info  - 8:36:38 PM] (69684) scanned(2) 44 files over 1 exec env
+2024-08-14 20:36:39.615 [info] [Info  - 8:36:39 PM] (69684) indexed(2) 20 files over 1 exec env
+2024-08-14 20:36:39.650 [info] [Info  - 8:36:39 PM] (69684) Indexing finished(2).

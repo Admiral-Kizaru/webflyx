@@ -1,0 +1,84 @@
+2024-08-14 20:36:33.944 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-08-14 20:36:33.944 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-08-14 20:36:33.944 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-08-14 20:36:33.944 [info] Experiment 'pythonTestAdapter' is active
+2024-08-14 20:36:33.983 [error] Reading directory to watch failed [Error: ENOENT: no such file or directory, scandir '/root/workspace/github.com/Admiral-Kizaru/bookbot/.pixi/envs'
+	at Object.readdirSync (node:fs:1515:26)
+	at /root/.vscode-server/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:586747
+	at /root/.vscode-server/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:586938
+	at Array.map (<anonymous>)
+	at d.initWatchers (/root/.vscode-server/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:586656)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async d.ensureWatchersReady (/root/.vscode-server/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:543067)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/root/workspace/github.com/Admiral-Kizaru/bookbot/.pixi/envs'
+}
+2024-08-14 20:36:33.985 [error] Dir "/root/workspace/github.com/Admiral-Kizaru/bookbot/.pixi/envs" is not watchable (directory does not exist)
+2024-08-14 20:36:34.131 [info] Default formatter is set to null for workspace /root/workspace/github.com/Admiral-Kizaru/bookbot
+2024-08-14 20:36:34.159 [info] Starting Environment refresh
+2024-08-14 20:36:34.160 [info] Searching for interpreters in posix paths locator
+2024-08-14 20:36:34.170 [info] Searching for pyenv environments
+2024-08-14 20:36:34.170 [info] Searching for conda environments
+2024-08-14 20:36:34.172 [info] Searching for global virtual environments
+2024-08-14 20:36:34.173 [info] Searching for custom virtual environments
+2024-08-14 20:36:34.849 [info] pyenv is not installed
+2024-08-14 20:36:34.849 [info] Finished searching for pyenv environments: 689 milliseconds
+2024-08-14 20:36:34.850 [info] Finished searching for custom virtual envs: 688 milliseconds
+2024-08-14 20:36:34.870 [info] > conda info --json
+2024-08-14 20:36:34.900 [info] > pixi --version
+2024-08-14 20:36:34.901 [error] [Error: spawn pixi ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pixi',
+  path: 'pixi',
+  spawnargs: [ '--version' ]
+}
+2024-08-14 20:36:34.920 [info] > hatch env show --json
+2024-08-14 20:36:34.920 [info] cwd: .
+2024-08-14 20:36:34.927 [info] > pyenv which python
+2024-08-14 20:36:34.927 [info] cwd: .
+2024-08-14 20:36:34.928 [info] Finished searching for global virtual envs: 766 milliseconds
+2024-08-14 20:36:34.981 [info] Found: /bin/python3 --> /bin/python3.10
+2024-08-14 20:36:34.983 [info] Found: /bin/python3.10 --> /bin/python3.10
+2024-08-14 20:36:34.999 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2024-08-14 20:36:35.000 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2024-08-14 20:36:35.088 [info] Finished searching for interpreters in posix paths locator: 932 milliseconds
+2024-08-14 20:36:35.088 [info] > /bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-14 20:36:35.103 [info] > /usr/bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-14 20:36:35.103 [info] Environments refresh paths discovered (event): 951 milliseconds
+2024-08-14 20:36:35.103 [info] Environments refresh paths discovered: 951 milliseconds
+2024-08-14 20:36:35.137 [info] Environments refresh finished (event): 985 milliseconds
+2024-08-14 20:36:35.147 [info] Environment refresh took 1002 milliseconds
+2024-08-14 20:36:35.151 [warning] could not find a pixi interpreter for the interpreter at /bin/python3
+2024-08-14 20:36:35.154 [info] Python interpreter path: /bin/python3
+2024-08-14 20:36:35.342 [info] Shell integration status changed, can confirm it's working.
+2024-08-14 20:36:35.343 [warning] could not find a pixi interpreter for the interpreter at /bin/python3
+2024-08-14 20:36:36.168 [warning] could not find a pixi interpreter for the interpreter at /bin/python3
+2024-08-14 20:36:36.438 [info] Starting Pylance language server.
+2024-08-14 20:38:33.303 [info] Discover tests for workspace name: bookbot - uri: /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+2024-08-14 21:12:51.119 [info] Discover tests for workspace name: bookbot - uri: /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+2024-08-14 21:12:56.995 [info] Discover tests for workspace name: bookbot - uri: /root/workspace/github.com/Admiral-Kizaru/bookbot
+2024-08-14 21:13:16.105 [info] CreateEnv Trigger - Skipping for /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+2024-08-14 21:13:16.156 [info] Send text to terminal: /bin/python3 /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+2024-08-14 21:23:42.095 [info] Send text to terminal: /bin/python3 /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+2024-08-14 21:23:42.333 [info] Discover tests for workspace name: bookbot - uri: /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+2024-08-14 21:23:53.483 [info] Send text to terminal: /bin/python3 /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+2024-08-14 21:23:53.721 [info] Discover tests for workspace name: bookbot - uri: /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+2024-08-14 21:24:20.158 [info] Send text to terminal: /bin/python3 /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+2024-08-14 21:24:20.378 [info] Discover tests for workspace name: bookbot - uri: /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+2024-08-14 21:26:50.599 [info] Send text to terminal: /bin/python3 /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+2024-08-14 21:26:50.846 [info] Discover tests for workspace name: bookbot - uri: /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+2024-08-14 21:27:02.349 [info] Send text to terminal: /bin/python3 /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+2024-08-14 21:27:02.592 [info] Discover tests for workspace name: bookbot - uri: /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+2024-08-14 21:28:44.046 [info] Send text to terminal: /bin/python3 /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+2024-08-14 21:28:44.289 [info] Discover tests for workspace name: bookbot - uri: /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+2024-08-14 21:35:45.166 [info] Send text to terminal: /bin/python3 /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+2024-08-14 21:35:45.401 [info] Discover tests for workspace name: bookbot - uri: /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+2024-08-14 21:36:21.501 [info] Send text to terminal: /bin/python3 /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+2024-08-14 21:36:21.722 [info] Discover tests for workspace name: bookbot - uri: /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py
+2024-08-14 21:36:37.145 [info] Discover tests for workspace name: bookbot - uri: /root/workspace/github.com/Admiral-Kizaru/bookbot/main.py

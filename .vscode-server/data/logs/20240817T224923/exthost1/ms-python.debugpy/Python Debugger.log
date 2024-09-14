@@ -1,0 +1,3 @@
+2024-08-17 22:49:27.357 [info] Name: Python Debugger
+2024-08-17 22:49:27.357 [info] Module: debugpy
+2024-08-17 22:56:49.384 [info] DAP Server launched with command: /bin/python3 /root/.vscode-server/extensions/ms-python.debugpy-2024.8.0-linux-x64/bundled/libs/debugpy/adapter
