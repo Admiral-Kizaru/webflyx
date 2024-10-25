@@ -4,3 +4,4 @@ bootdev
 advert.html
 venv/
 __pycache__/
+public/
