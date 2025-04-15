@@ -1,0 +1,4 @@
+./client.go
+./locationlist.go
+./pokeapi.go
+./types_locations.go

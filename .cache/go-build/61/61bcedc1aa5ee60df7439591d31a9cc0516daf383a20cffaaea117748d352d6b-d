@@ -1,0 +1,7 @@
+./client.go
+./location_get.go
+./location_list.go
+./pokeapi.go
+./pokemon_get.go
+./types_locations.go
+./types_pokemon.go

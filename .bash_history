@@ -1,327 +1,3 @@
-git init
-echo "# My Project" >> README.md
-touch .gitignore
-git add .
-git commit -m "Initial commit"
-python3 -m venv venv
-apt install python3.10-venv
-python3 -m venv venv
-source venv/bin/activate
-echo "requests\nflask" > requirements.txt
-cat requirements.txt
-git add requirements.txt
-git commit -m "Add requirements.txt"
-echo "pygame==2.6.0" > requirements.txt
-cat requirements.txt
-git add requirements.txt
-git commit -m "Add requirements.txt with pygame==2.6.0"
-pip install -r requirements.txt
-python3 -m pygame
-bootdev run 7228cde1-e519-4ee4-920e-1c50011197bb
-bootdev run 7228cde1-e519-4ee4-920e-1c50011197bb -s
-ls
-cd main.py
-cat main.py
-ls
-touch constants.py
-ls
-nano contents.md
-nano constants.py
-nano main.py
-nano main.py
-bootdev run 268bb0d0-3e63-4218-aacc-cba3247a1af5
-bootdev run 268bb0d0-3e63-4218-aacc-cba3247a1af5 -s
-ls
-nano main.py
-python3 main.py
-nano main.py
-python3 main.py
-nano main.py
-python3 main.py
-nano main.py
-python3 main.py
-nano .gitignore
-git add .
-git commit -m "Meep"
-git log
-ls
-nano main.py
-python3 main.py
-ls
-cd main.py
-cat main.py
-nano main.py
-cat main.py
-nano main.py
-ls
-python3 main.py
-cat main.py
-python3 main.py
-ls
-python3 main.py
-nano main.py
-python3 main.py
-nano main.py
-python3 main.py
-nano main.py
-python3 main.py
-pip3 install pygame
-apt install python3-pip
-python3 main.py
-ls
-python3 main.py
-python3 --version
-pip3 --version
-pip3 install --user pygame
-python3 main.py
-bootdev run d53d6123-6fd5-4f9c-ba0a-2c4d82ae0a49
-bootdev run d53d6123-6fd5-4f9c-ba0a-2c4d82ae0a49 -s
-ls
-nano constants.py
-nano player.py
-python3 main.py
-nano main.py
-python3 main.py
-touch asteroid.py
-nano asteroid.py
-touch asteroidfield.py
-nano asteroidfield.py
-python3 main.py
-nano constants.py
-nano main.py
-nano player.py
-touch shot.py
-nano shot.py
-python3 main.py
-nano main.py
-nano main.py
-nano player.py
-python3 main.py
-nano constants.py
-python3 main.py
-nano constants.py
-nano player.py
-python3 main.py
-nano player.py
-python3 main.py
-nano player.py
-python3 main.py
-nano main.py
-python3 main.py
-nano asteroid.py
-nano main.py
-python3 main.py
-ls
-touch circleshape.py
-ls
-nano circleshape.py
-bootdev run a56fface-8a77-40ee-bf17-50d76078e5ec
-bootdev run a56fface-8a77-40ee-bf17-50d76078e5ec -s
-ls
-nano constants.py
-nano circleshape.py
-nano constants.py
-nano main.py
-touch player.py
-ls
-nano player.py
-python3 main.py
-nano circleshape.py
-nano constants.py
-nano main.py
-nano player.py
-python3 main.py
-ls
-nano main.py
-python3 main.py
-nano circleshape.py
-nano main.py
-python3 main.py
-nano main.py
-python3 main.py
-bootdev run 7d4f1f5a-215d-4dc2-ad7a-2728c23fb695
-bootdev upgrade
-bootdev run 7d4f1f5a-215d-4dc2-ad7a-2728c23fb695
-bootdev run 7d4f1f5a-215d-4dc2-ad7a-2728c23fb695 -s
-ls
-mkdir public
-ls
-cd public
-ls
-mkdir index.html
-ls
-nano index.html
-ls
-cat index.html
-cd public
-python3 -m http.server 8888
-ls
-cd public
-python3 -m http.server 8888
-bootdev run 1e5e465e-a33a-4cf1-829b-a054a077394e
-bootdev run 1e5e465e-a33a-4cf1-829b-a054a077394e -s
-cd public
-python3 -m http.server 8888
-bootdev run 1e5e465e-a33a-4cf1-829b-a054a077394e
-bootdev run 1e5e465e-a33a-4cf1-829b-a054a077394e -s
-ls
-cd public
-ls
-cd index.html
-nano
-cd public
-python3 -m http.server 8888
-bootdev run 1e5e465e-a33a-4cf1-829b-a054a077394e
-bootdev run 1e5e465e-a33a-4cf1-829b-a054a077394e -s
-ls
-cd public
-ls
--r coding
-remove coding
-delete Coding
-how do i delete a file
-ls
-rm coding
-rm Coding
-ls
-cd index.html
-ls
-cd coding
-cd Coding
-cd public
-python3 -m http.server 8888
-ls
-rm public
-del public
-rmdir public
-rm -r public
-ls
-mkdir public
-ls
-cd public
-mkdir index.html
-ls
-cd index.html
-ls
-nano index.html
-cd public
-python3 -m http.server 8888
-bootdev run 1e5e465e-a33a-4cf1-829b-a054a077394e
-bootdev run 1e5e465e-a33a-4cf1-829b-a054a077394e -s
-ls
-cd public
-ls
-nano
-ls
-cat index.html
-nano index.html
-cd index.html
-ls
-cd index.html
-cat index.html
-ls
-nano
-nano index.html
-nano index.html
-bootdev run 97743251-f8c6-4865-b6ad-82384629a73a
-bootdev run 97743251-f8c6-4865-b6ad-82384629a73a -s
-# from inside the public directory
-python3 -m http.server 8888
-# from inside the public directory
-python3 -m http.server 8888
-# from inside the public directory
-python3 -m http.server 8888
-bootdev run 97743251-f8c6-4865-b6ad-82384629a73a
-bootdev run 97743251-f8c6-4865-b6ad-82384629a73a -s
-ls
-cd public
-ls
-cat index.html
-nano index.html
-cd index.html
-ls
-cat index.html
-nano index.html
-# from inside the public directory
-python3 -m http.server 8888
-bootdev run 97743251-f8c6-4865-b6ad-82384629a73a
-bootdev run 97743251-f8c6-4865-b6ad-82384629a73a -s
-lss
-ls
-cd public
-ls
-cat styles.css
-ls
-cd index.html
-ls
-cat index.html
-python3 -m http.server 8888
-cd public
-python3 -m http.server 8888
-pwd
-cd..
-cd ..
-ls
-cd ..
-ls
-cd public
-python3 -m http.server 8888
-ls
-cd src
-ls
-touch test_markdown_blocks.py
-nano test_markdown_blocks.py
-touch markdown_blocks.py
-nano markdown_blocks.py
-cd ..
-bootdev run c416bebd-7f50-40eb-bf24-d882770d6f9a
-bootdev run c416bebd-7f50-40eb-bf24-d882770d6f9a -s
-ls
-cd src
-ls
-rm test_markdown_blocks.py
-nano test_markdown_blocks.py
-rm markdown_blocks.py
-nano markdown_blocks.py
-cd ..
-bootdev run 719ee1ae-19b6-4572-9b40-c8530dcbfa4f
-bootdev run 719ee1ae-19b6-4572-9b40-c8530dcbfa4f -s
-cd src
-rm markdown_blocks.py
-nano markdown_blocks.py
-rm test_markdown_blocks.py
-nano test_markdown_blocks.py
-cd ..
-bootdev run 1d9f9063-4163-4b0e-ba00-397f7e7d37b9
-bootdev run 1d9f9063-4163-4b0e-ba00-397f7e7d37b9 -s
-cd .gitignore
-nano .gitignore
-cd src
-nano copystatic.py
-nano main.py
-rm test_markdown_blocks.py
-nano test_markdown_blocks.py
-cd ..
-ls
-mkdir static
-ls
-cd static
-touch images
-nano index.css
-cd images
-ls
-rm images
-mkdir images
-ls
-cd images
-nano rivendell.png
-nano rivendell.png
-cd..
-cd ..
-cd ..
-ls
-bootdev run abd575ab-62df-4935-8746-fa440c4925d2
-bootdev run abd575ab-62df-4935-8746-fa440c4925d2 -s
 ls
 mkdir content
 cd content
@@ -498,3 +174,327 @@ cd ..
 ls
 nano template.html
 ./main.sh
+bootdev run 3db58450-c8f2-4368-a8ab-f5a2fba3f7fa
+bootdev run 3db58450-c8f2-4368-a8ab-f5a2fba3f7fa -s
+bootdev run 50bf720d-808f-4a55-9dab-cea526a8d734
+bootdev run 50bf720d-808f-4a55-9dab-cea526a8d734 -s
+nano .gitignore
+cd content
+nano index.md
+ls
+mkdir majesty
+cd majesty
+nano index.md
+cd ..
+cd ..
+cd src
+rm gencontent.py
+nano gencontent.py
+rm main.py
+nano main.py
+cd ..
+ls
+./main.sh test
+./main.sh
+./main.sh
+bootdev run 50bf720d-808f-4a55-9dab-cea526a8d734
+bootdev run 50bf720d-808f-4a55-9dab-cea526a8d734 -s
+ls
+git init
+git add .
+git commit -m "Initial commit"  # or another message describing your changes
+git remote add origin https://github.com/Admiral-Kizaru/Static-site.git
+git push -u origin main
+git push -u origin main
+git push -u origin main
+git remote add origin https://github.com/Admiral-Kizaru/Static-site.git
+git branch -M main
+git push -u origin main
+python3 -m tkinter
+python3 --version
+sudo apt-get install python3-tk
+python3 -m tkinter
+from tkinter import Tk, BOTH, Canvas
+nano window.py
+python3 window.py
+python3 window.py
+nano window.py
+ls
+pwd
+cd~
+cd ~
+mkdir maze_project
+cd maze_project
+nano window.py
+python3 window.py
+nano window.py
+nano window.py
+nano window.py
+nano main.py
+ls
+python3 window.py
+python3 window.py
+python3 --version
+sudo apt-get install python3-tk
+python3 window.py
+ls
+nano window.py
+python3 window.py
+nano main.py
+nano window.py
+python3 window.py
+ls
+nano main.py
+python maze.py
+python3 maze.py
+ls
+python3 main.py
+nano main.py
+python3 main.py
+nano main.py
+nano cell.py
+python3 main.py
+del cell.py
+rm cell.py
+nano cell.py
+rm main.py
+nano main.py
+python3 main.py
+ls
+cd workspace
+ls
+cd ..
+cd maze_project
+ls
+nano main.py
+rm main.py
+nano main.py
+nano maze.py
+python main.py
+python3 main.py
+ls
+rm cell.py
+nano cell.py
+rm maze.py
+nano maze.py
+nano tests.py
+python3 main.py
+python3 main.py
+ls
+rm cell.py
+nano cell.py
+rm maze.py
+nano maze.py
+rm tests.py
+nano tests.py
+python3 main.py
+rm cell.py
+nano cell.py
+rm main.py
+nano main.py
+rm maze.py
+nano maze.py
+python3 main.py
+ls
+cd maze_project
+python3 main.py
+python3 main.py
+ls
+cd maze_project
+rm maze.py
+nano maze.py
+rm tests.py
+nano tests.py
+python3 main.py
+python3 main.py
+rm main.py
+nano main.py
+rm maze.py
+nano maze.py
+python3 main.py
+ls
+git init
+git add .
+git commit -m "Initial commit of maze solver project"
+git remote add origin https://github.com/Admiral-Kizaru/maze-solver.git
+git push -u origin main
+bootdev run 148c8301-4cda-46fc-9a4f-6613c647939c
+bootdev upgrade
+bootdev run 148c8301-4cda-46fc-9a4f-6613c647939c -s
+bootdev run 148c8301-4cda-46fc-9a4f-6613c647939c
+bootdev login
+bootdev login
+bootdev run 148c8301-4cda-46fc-9a4f-6613c647939c
+bootdev login
+bootdev run 148c8301-4cda-46fc-9a4f-6613c647939c
+bootdev run 148c8301-4cda-46fc-9a4f-6613c647939c -s
+mkdir hellogo
+cd hellogo
+go mod init {github.com}/{Kizaru}/hellogo
+go mod init github.com/Kizaru/hellogo
+cat go.mod
+bootdev run 7dc6a0c9-d3d8-4536-8e88-ca88fee35049
+bootdev run 7dc6a0c9-d3d8-4536-8e88-ca88fee35049 -s
+cd
+ls
+cd ..
+ls
+cd bootdev
+ls
+cd..
+ls
+cd ..
+ls
+cd home
+ls
+ls
+cd ..
+ls
+cd dev
+ls
+cd ..
+ls
+cd usr
+ls
+cd ..
+ls
+cd ..
+ls
+cd boot
+ls
+cd ..
+ls
+cd dev
+ls
+cd ..
+ls
+cd worldbanc
+ls
+cd ..
+ls
+cd worldbanc-main
+ls
+cd..
+cd ..
+ls
+cd run
+ls
+cd ..,
+cd ..
+ls
+mkdir hellogo
+cd hellogo
+nano main.go
+go run main.go
+bootdev run 52dda666-1573-49c3-a1b2-cb54bbf892e9
+bootdev run 52dda666-1573-49c3-a1b2-cb54bbf892e9 -s
+ls
+cd hellogo
+go build
+./hellogo
+bootdev run 54c794e4-55d8-4c43-8d95-b22a3ebdca2f
+bootdev run 54c794e4-55d8-4c43-8d95-b22a3ebdca2f -s
+ls
+go build
+nano main.go
+go build
+./hellogo
+bootdev run 54c794e4-55d8-4c43-8d95-b22a3ebdca2f
+bootdev run 54c794e4-55d8-4c43-8d95-b22a3ebdca2f -s
+go build
+./hellogo
+go build -o hellogo
+nano main.go
+./hellogo
+go build
+./hellogo
+bootdev run 54c794e4-55d8-4c43-8d95-b22a3ebdca2f
+bootdev run 54c794e4-55d8-4c43-8d95-b22a3ebdca2f -s
+go install
+cd ../
+hellogo
+bootdev run 576b7605-b5d7-42aa-92a9-7c8e63929a09
+bootdev run 576b7605-b5d7-42aa-92a9-7c8e63929a09 -s
+cd ..
+mkdir mystrings
+cd mystrings
+ls
+cd ..
+ls
+cd mystrings
+go mod init github.com/Kizaru/mystrings
+nano mystrings.go
+bootdev run 2c32a5fc-6827-48f9-a033-392881ff3ca5
+bootdev run 2c32a5fc-6827-48f9-a033-392881ff3ca5 -s
+ls
+cd..
+cd ..
+ls
+cd bootdev
+ls
+cd ..
+ls
+cd dev
+ls
+cd ..
+ls
+cd boot
+ls
+cd ..
+ls
+cd bin
+ls
+cd ..
+ls
+cd hellogo
+ls
+nano main.go
+ls
+cd main.go
+nano go.mod
+go build
+./hellogo
+bootdev run 5e5236b3-9ce4-45de-8759-ac3afabf0cbb
+bootdev run 5e5236b3-9ce4-45de-8759-ac3afabf0cbb -s
+ls
+cd ..
+ls
+mkdir datetest
+cd datetest
+nano main.go
+go mod init github.com/Kizaru/datetest
+go get github.com/wagslane/go-tinytime
+cat go.mod
+go build
+./datetest
+bootdev run 9c49ad86-aee5-4f56-8df2-59ae5cdb194d
+bootdev run 9c49ad86-aee5-4f56-8df2-59ae5cdb194d -s
+curl --version
+bootdev run 67de86ba-5228-4ec6-b2ea-a59aa4944405
+bootdev run 67de86ba-5228-4ec6-b2ea-a59aa4944405 -s
+curl https://api.boot.dev/v1/courses_rest_api/learn-http/issues
+curl https://api.boot.dev/v1/courses_rest_api/learn-http/issues/tmp/issues.json
+bootdev run f8584cac-3fae-4cf9-9a74-38d45f9d6fc9
+bootdev run f8584cac-3fae-4cf9-9a74-38d45f9d6fc9 -s
+curl https://api.boot.dev/v1/courses_rest_api/learn-http/issues > /tmp/issues.json
+cat /tmp/issues.json
+bootdev run f8584cac-3fae-4cf9-9a74-38d45f9d6fc9
+bootdev run f8584cac-3fae-4cf9-9a74-38d45f9d6fc9 -s
+curl -X POST https://api.boot.dev/v1/courses_rest_api/learn-http/users -d '{
+  "role": "QA Job Safety",
+  "experience": 2,
+  "remote": true}'>/tmp/user.json
+bootdev run f8584cac-3fae-4cf9-9a74-38d45f9d6fc9
+bootdev run f8584cac-3fae-4cf9-9a74-38d45f9d6fc9 -s
+bootdev run 9b8c679a-ac43-4d72-aed3-78f4e2a51724
+bootdev run 9b8c679a-ac43-4d72-aed3-78f4e2a51724 -s
+jq --version
+sudo apt-get update
+sudo apt-get install jq
+bootdev run c18860ae-cf7c-47b6-9abb-4e2084e3268e
+bootdev run c18860ae-cf7c-47b6-9abb-4e2084e3268e -s
+curl https://api.boot.dev/v1/courses_rest_api/learn-http/issues |jq '.[].title and .estimate>/tmp/issue_info.txt
+
+
+curl https://api.boot.dev/v1/courses_rest_api/learn-http/issues |jq '.[].title and .estimate' >/tmp/issue_info.txt
+
