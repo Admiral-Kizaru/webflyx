@@ -1,1 +1,1 @@
-BookBot is my first project!
+Max Cortez version of Boot.dev's Notely app
