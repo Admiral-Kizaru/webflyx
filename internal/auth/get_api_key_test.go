@@ -50,7 +50,7 @@ func TestGetAPIKey(t *testing.T) {
 					return
 				}
 				t.Errorf("Unexpected: TestGetAPIKey:%v\n", err)
-				return 0
+				return 
 			}
 
 			if output != test.expect {
